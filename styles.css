@@ -11,5 +11,11 @@ h1 {
 }
 
 h2 {
-   
+   color: seagreen;
+   border-width: 8px;
+   padding: 10px 10px 10px 10px;
+   margin: 30px 30px 30px 30px;
+   border-color: rgb(222, 110, 132);
+   background-color: lavender;
+   text-align: center;
 }
