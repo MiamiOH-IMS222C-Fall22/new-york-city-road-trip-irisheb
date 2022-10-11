@@ -25,3 +25,10 @@ h3  {
    color: seagreen;
    padding: 10px 10px 10px 10px;
 }
+
+main.container {
+   border: 1px soild;
+   background-color: cornsilk;
+   padding: 15px 15px 15px 15px;
+   border-radius: 25px;
+}
