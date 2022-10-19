@@ -1,11 +1,11 @@
 h1 {
     color:seagreen;
     border-width: 8px;
-    border-style: groove;
-    border-color: rgb(222, 110, 132);
+    border-style:outset;
+    border-color: darkslategray;
     padding: 18px 18px 18px 18px;
     margin: 50px 50px 50px 50px;
-    background-color: lightblue;
+    background-color: cornsilk;
     text-align: center;
     font-size: xxx-large;
 }
@@ -16,7 +16,7 @@ h2 {
    padding: 10px 10px 10px 10px;
    margin: 30px 30px 30px 30px;
    border-color: rgb(222, 110, 132);
-   background-color: lavender;
+   background-color: cornsilk;
    text-align: center;
 }
 
@@ -27,13 +27,13 @@ h3  {
    padding: 10px 10px 10px 10px;
    margin: 30px 30px 30px 30px;
    border-color: rgb(222, 110, 132);
-   background-color: lavender;
+   background-color: cornsilk;
    text-align: center;
 }
 
 main.container {
-   border-color: lightblue;
-   background-color:cornsilk;
+   border-color:darkslategray;
+   background-color:powderblue;
    padding: 15px 15px 15px 15px;
    border-radius: 70px;
 }
@@ -65,16 +65,16 @@ nav ul li a {
   display: block;
   padding: 0.75em;
   margin: 0.25em;  
-  background-color:rgb(222, 110, 132);
-  color: white;  
+  background-color:rgb(166, 150, 172);
+  color: rgb(7, 6, 6);  
   text-align: center;
   text-decoration: none;  
   border-radius: 10px;
 }
 
 nav ul li a:hover {
-  background-color: rgb(227, 151, 166);
-  box-shadow: inset 5px 5px 5px rgb(34, 51, 57);  
+  background-color: seagreen;
+  box-shadow: inset 5px 5px 5px rgb(16, 50, 31);  
 }
 
 @media screen and (max-width: 760px) {
@@ -88,5 +88,5 @@ nav ul li a:hover {
 }
 
 body {
-background-color: lightblue;
+background-color:cornsilk;
 }
