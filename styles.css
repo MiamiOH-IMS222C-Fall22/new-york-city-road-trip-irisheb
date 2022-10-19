@@ -74,7 +74,7 @@ nav ul li a {
 
 nav ul li a:hover {
   background-color: rgb(227, 151, 166);
-  box-shadow: inset 5px 5px 5px lightblue;  
+  box-shadow: inset 5px 5px 5px rgb(34, 51, 57);  
 }
 
 @media screen and (max-width: 760px) {
@@ -88,5 +88,5 @@ nav ul li a:hover {
 }
 
 body {
-background-color: rgb(163, 246, 226);
+background-color: lightblue;
 }
