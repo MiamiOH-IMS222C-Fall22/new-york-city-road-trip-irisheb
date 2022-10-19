@@ -90,3 +90,7 @@ nav ul li a:hover {
 body {
 background-color:cornsilk;
 }
+
+head {
+  *place font link here* then pace the font family in h1 and h2. it is in google fonts
+}
