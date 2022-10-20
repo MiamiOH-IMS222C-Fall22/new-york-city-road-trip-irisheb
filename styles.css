@@ -1,22 +1,23 @@
 h1 {
-    color:seagreen;
+    color:rgb(246, 236, 195);
     border-width: 8px;
-    border-style:outset;
-    border-color: darkslategray;
+    border-style:dotted;
+    border-color: rgb(72, 30, 110);
     padding: 18px 18px 18px 18px;
     margin: 50px 50px 50px 50px;
-    background-color: cornsilk;
+    background-color:cornflowerblue;
     text-align: center;
-    font-size: xxx-large;
+    font-size: 5em;
+    font-family: 'Yeseva One', cursive;
 }
 
 h2 {
-   color: seagreen;
+   color: rgb(255, 136, 136);
    border-width: 8px;
    padding: 10px 10px 10px 10px;
    margin: 30px 30px 30px 30px;
-   border-color: rgb(222, 110, 132);
-   background-color: cornsilk;
+   border-color: rgb(173, 72, 72);
+   background-color: rgb(252, 249, 237);
    text-align: center;
 }
 
@@ -26,14 +27,14 @@ h3  {
    border-width: 8px;
    padding: 10px 10px 10px 10px;
    margin: 30px 30px 30px 30px;
-   border-color: rgb(222, 110, 132);
-   background-color: cornsilk;
+   border-color: rgb(173, 72, 72);
+   background-color:rgb(252, 249, 237);
    text-align: center;
 }
 
 main.container {
-   border-color:darkslategray;
-   background-color:powderblue;
+   border-color:rgb(72, 30, 110);
+   background-color:rgb(246, 236, 195);
    padding: 15px 15px 15px 15px;
    border-radius: 70px;
 }
@@ -65,7 +66,7 @@ nav ul li a {
   display: block;
   padding: 0.75em;
   margin: 0.25em;  
-  background-color:rgb(166, 150, 172);
+  background-color: rgb(255, 136, 136);
   color: rgb(7, 6, 6);  
   text-align: center;
   text-decoration: none;  
@@ -73,8 +74,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background-color: seagreen;
-  box-shadow: inset 5px 5px 5px rgb(16, 50, 31);  
+  background-color:rgb(161, 89, 89) ;
+  box-shadow: inset 5px 5px 5px rgb(60, 33, 33);  
 }
 
 @media screen and (max-width: 760px) {
@@ -88,9 +89,12 @@ nav ul li a:hover {
 }
 
 body {
-background-color:cornsilk;
+background-color:rgb(83, 124, 201);
 }
 
 head {
-  *place font link here* then pace the font family in h1 and h2. it is in google fonts
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
 }
+
