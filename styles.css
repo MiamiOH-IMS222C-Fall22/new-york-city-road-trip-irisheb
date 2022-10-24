@@ -28,7 +28,7 @@ h3  {
    color:rgb(255, 136, 136);
    border-width: 8px;
    padding: 10px 10px 10px 10px;
-   margin: 70px 70px 70px 70px;
+   margin: 10px 10px 10px 10px;
    border-color: rgb(173, 72, 72);
    background-color:rgb(252, 249, 237);
    text-align: center;
@@ -51,6 +51,8 @@ main.container {
    }
 
  img {
+     display: block;
+     margin: 1em auto;
      width: 70%;
      height: auto;
      }
@@ -101,6 +103,8 @@ head {
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
 }
+
+* {box-sizing:border-box}
 
 .slideshow-container {
   max-width: 1000px;
