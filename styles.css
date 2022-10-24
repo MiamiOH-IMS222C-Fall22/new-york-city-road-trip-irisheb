@@ -19,17 +19,19 @@ h2 {
    border-color: rgb(173, 72, 72);
    background-color: rgb(252, 249, 237);
    text-align: center;
+   font-size: 2em;
 }
 
 h3  {
    font-size: large;
-   color: seagreen;
+   color:rgb(255, 136, 136);
    border-width: 8px;
    padding: 10px 10px 10px 10px;
    margin: 30px 30px 30px 30px;
    border-color: rgb(173, 72, 72);
    background-color:rgb(252, 249, 237);
    text-align: center;
+   font-size: 1.5em;
 }
 
 main.container {
@@ -47,14 +49,14 @@ main.container {
    }
 
  img {
-     width: 100%;
+     width: 70%;
      height: auto;
      }
 
      nav ul {
   display: flex;
-  flex-direction: row;
-  padding: 0px;
+  flex-direction:row;
+  padding: 5px;
 }
 
 nav ul li {
