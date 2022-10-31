@@ -36,19 +36,16 @@ h3  {
    border-radius: 17px;
 }
 
-main.container {
-   border-color:rgb(72, 30, 110);
+.container {
    background-color:rgb(246, 236, 195);
    padding: 15px 15px 15px 15px;
    border-radius: 70px;
-}
-
-.container {
    max-width: 1300px;
    margin: 3em auto 3em auto;
-   color:black;
-   border: 5px solid;
+   color: black;
+   border: 5px solid rgb(72, 30, 110);
    }
+
 iframe{
   display: block;
   margin: 3em auto;
@@ -99,12 +96,6 @@ nav ul li a:hover {
 
 body {
 background-color:rgb(83, 124, 201);
-}
-
-head {
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
 }
 
 * {box-sizing:border-box}
